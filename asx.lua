@@ -156,7 +156,7 @@ Font = Enum.Font.SourceSansBold;
 FontSize = Enum.FontSize.Size24;
 })
 
-print("Loaded Thanks For Using My Script!")
+
 wait(20)
 print("Rip server")
 while true do
