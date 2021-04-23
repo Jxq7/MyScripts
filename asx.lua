@@ -23,8 +23,9 @@
 -------------------------------------------------
 
 --- SUPPORTED GAMES  (only for the gui's i stole lol)---
-local Ragdoll = true
-local 
+local Ragdoll = 22653509 
+local Arsenal = 286090429
+local Infection = 4531385883
  
 ------ STARTING SCRIPT --------
 
@@ -51,6 +52,7 @@ if  game.CreatorId == RagdollEngine then
         local plr = game.Players
 	plr.RespawnTime = 1
 end
+
 
 
 
