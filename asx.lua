@@ -1,6 +1,5 @@
 -----
 --[[
-
  ________   ______   __     __       ___ __ __   ________   ______   ______        _______   __  __    ___   __   __   ________  ______    __  __   ______     
 /_______/\ /_____/\ /__/\ /__/\     /__//_//_/\ /_______/\ /_____/\ /_____/\     /_______/\ /_/\/_/\  /__/\ /_/\ /_/\ /_______/\/_____/\  /_/\/_/\ /_____/\    
 \::: _  \ \\::::_\/_\ \::\\:.\ \    \::\| \| \ \\::: _  \ \\:::_ \ \\::::_\/_    \::: _  \ \\ \ \ \ \ \::\/ \:\ \\ \ \\__.::._\/\:::_ \ \ \:\ \:\ \\::::_\/_   
@@ -16,22 +15,12 @@
   \::___\/_\:\ \____  _\: \ \__\::\ \   \::___\/_    \:\ \/_/\\:: __  \ \\_::._\:\\: ___\/  \::_:\ \\: __ `\ \                                                 
    \:\____/\\:\/___/\/__\: \__/\\::\ \   \:\____/\    \:\_\ \ \\:.\ \  \ \ /____\:\\ \ \    /___\:\ '\ \ `\ \ \                                                
     \_____\/ \_____\/\________\/ \__\/    \_____\/     \_____\/ \__\/\__\/ \_____\/ \_\/    \______/  \_\/ \_\/       
-
-
  ____  ____  ____  ____  _             _     ____  _____   ____  ____  ____  _  ____  _____ 
 /   _\/  __\/  _ \/ ___\/ \ /|    /\  / \   /  _ \/  __/  / ___\/   _\/  __\/ \/  __\/__ __\
 |  /  |  \/|| / \||    \| |_||   / /  | |   | / \|| |  _  |    \|  /  |  \/|| ||  \/|  / \  
 |  \__|    /| |-||\___ || | ||  / /   | |_/\| |-||| |_//  \___ ||  \__|    /| ||  __/  | |  
 \____/\_/\_\\_/ \|\____/\_/ \|  \/    \____/\_/ \|\____\  \____/\____/\_/\_\\_/\_/     \_/  
                                                                                             
-
-
-
-
-
-
-
-
 ]]--
 
 
@@ -49,12 +38,6 @@
 
 
 --[[
-
-
-
-
-
-
  Thanks for using my script I appreciate it
 ------------=========== INFO -----------=======
  Ok So Basically I combined some scripts together like,
@@ -67,6 +50,7 @@
  Update 1  added something idk anything bout
  Update 2 added stuff that hopefully make it so that it crashes for everyone  now at 278 lines of code or smt ok bye ily (no homo)
  Update 3 Did a massive update now at like 400 lines of code and added alot of more stuff and features.
+]]--
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
 	Title = "Information From Owner";
@@ -74,7 +58,54 @@ StarterGui:SetCore("SendNotification", {
 	Duration = 5;
 })
 
-]]--
+---- For Retarded kids in ragdoll engine
+if game.Id = Ragdoll then
+local msg = "Pretty Ugly YO MAMA"
+while wait() do
+game.Player:Chat (msg)
+end
+end
+
+local msg = "DEEZ NUTS"
+while wait() do
+game.Player:Chat (msg)
+end
+
+--- INSTA CRASH
+
+wait(5)
+print("Fall Damage")
+print("Beamed By Your Pretty Ugly Mom")
+
+
+while true do 
+print("Fall Damage")
+print("Beamed By Your Pretty Ugly Mom")
+end
+
+----------------------
+wait(60)
+local plr = game.Players.localPlayer
+local telePart = script.Parent
+
+
+
+local TeleportService = game:GetService('TeleportService')
+
+
+
+local placeID = 5020048423
+
+
+
+local canTeleport = true
+
+
+	canTeleport = false
+
+		TeleportService:Teleport(placeID, plr)
+
+
 wait(10)
 while true do
 	wait(Process)
@@ -391,7 +422,7 @@ end
 
 
 ---- ADWAS'S SCRIPT
---[[
+--[[ didnt add adwas script since it was causing errors.
  ___       __   ________  ___       ___           ___    ___ ________  _______   ________  ___  ___  ________  _______        _________  _____ ______           
 |\  \     |\  \|\   __  \|\  \     |\  \         |\  \  /  /|\   ____\|\  ___ \ |\   ____\|\  \|\  \|\   __  \|\  ___ \   ___|\___   ___\\   _ \  _   \  ___    
 \ \  \    \ \  \ \  \|\  \ \  \    \ \  \        \ \  \/  / | \  \___|\ \   __/|\ \  \___|\ \  \\\  \ \  \|\  \ \   __/| |\__\|___ \  \_\ \  \\\__\ \  \|\__\   
@@ -421,4 +452,3 @@ end
 --- 308 Lines Of Code Milestone
 game:Shutdown();
 print("I Did my best to crash this server.")
-
