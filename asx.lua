@@ -8,10 +8,15 @@
 -- Thanks for using my script
 -- El1te / SennieJack / ThatRobloxScripter
 -- Update 1  added something idk anything bout
--- Update 2 added stuff that hopefully make it so that it crashes for everyone  now at 278 lines of code or smt ok bye ily (no homo) 
+-- Update 2 added stuff that hopefully make it so that it crashes for everyone  now at 278 lines of code or smt ok bye ily (no homo)
+-- Update 3 Did a massive update now at like 400 lines of code and added alot of more stuff and features.
 
-
-
+loadstring(game:HttpGet(https://raw.githubusercontent.com/Jxq7/MyScripts/main/more-asx.lua"))();
+		wait(3)
+                print("In Process Of Executing")
+		wait(Process)
+		
+		local Process = 5
 --- CREDITS ---
 -- Thanks to NougatBitz For The Gui
 -- Thanks to Adwas For The gui
