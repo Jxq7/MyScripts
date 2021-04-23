@@ -25,10 +25,10 @@
 --- SUPPORTED GAMES  (only for the gui's i stole lol)---
 local Ragdoll = 22653509 
 local Arsenal = 286090429
-local Infection = 4531385883
+local Infection = 1165047394
  
 ------ STARTING SCRIPT --------
-
+nil
 ------- SCRIPT HANDLER ---------------------
 local HttpService = game:GetService('HttpService')
 local AllowThirdyPartyTeleports = game:GetService('AllowThirdPartyTeleports')
@@ -55,7 +55,31 @@ end
 
 
 
+--- ARSENAL
+if game.PlaceId == Arsenal  then
+	print(player.Name .."Is Playing Arsenal")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/NougatBitz/ArsenalHaxx/master/TintenFisch.lua"))();
+	if error then
+		print(error)
+		loadstring(game:HttpGet("https://github.com/Jxq7/MyScripts/blob/main/Arsenal%20%5BASX%5D.lua"))();
+	end
 
+end
+
+
+--------- infeEcCcTiOnNn
+if game.PlaceId == Infection then
+	print(player.Name.. "Is Playing Infection")
+	loadstring(game:HttpGet("https://pastebin.com/raw/KRvb0vKv"))();
+		if error then
+			local ErrorTXT = "Error! Sorry i dont know what other script is good for this game"
+			game.Players.LocalPlayer:Kick(ErrorTXT)
+		end
+end
+
+
+
+------------------------------------------------------ UNSUPPORTED ---------------------------------------------------------
 
 
 
@@ -225,8 +249,6 @@ end)
 
 
 wait(15)
--------------- SHUTDOWN WHEN CRASHED -------
-game:Shutdown()
 
 
 --- EXTRA LAG+ BASSIC CHARACTER HACKS ---
@@ -307,3 +329,5 @@ end
 
 
 --- 308 Lines Of Code Milestone
+game:Shutdown();
+print("I Did my best to crash this server.")
