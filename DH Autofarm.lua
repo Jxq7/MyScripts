@@ -7,9 +7,9 @@
 
 --- Loading Elements
 local antikick = 'https://raw.githubusercontent.com/Jxq7/MyScripts/main/Anti%20Kick.lua'
-local espscript = ''
+local espscript = 'https://raw.githubusercontent.com/Jxq7/MyScripts/main/Box%20Esp.lua'
 --- onscript loaded
-print("Loaded Script 👋 Thanks for using ASX")
+print("Loaded Script 👋 Thanks for using Saxano")
 
 
 
@@ -20,8 +20,8 @@ print("Loaded Script 👋 Thanks for using ASX")
 wait(0.5)
 print("Loading")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxq7/MyScripts/main/DH%20autofarm%20%5Bremake%5D.lua"))()
-
---- Made By SennieJack
+loadstring(game:HttpGet(espscript))()
+--- Made By Virus#0030
 --- Anti Cheat Bypass & Returner
 while true do
 local loopwait = 50
@@ -51,5 +51,6 @@ end
 
 
   
-  ---- Anti Kick
-
+  ---- // Anti Kick & ESP
+loadstring(game:HttpGet(antikick))()
+loadstring(game:HttpGet(espscript))()
