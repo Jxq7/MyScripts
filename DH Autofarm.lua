@@ -1,6 +1,6 @@
 --[[
   Best Da Hood Autofarm script! 
-  Made By: Virus#4193 & ! El1te#0030 3o7#001 Casp3r#001
+  Made By: Virus#4193 & ! El1te#0030 3o7#0001 Casp3r#0001
 
    
 --]]
