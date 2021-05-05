@@ -3,7 +3,7 @@ Da Hood auto rob script by Amnesia
 i didn't make this but i just changed a lil bit of the script so you don't get kicked in 54 seconds
 ]]
 repeat
-  wait(5)
+  wait(2)
     wait()
 until game:IsLoaded()
 local gm = getrawmetatable(game)
