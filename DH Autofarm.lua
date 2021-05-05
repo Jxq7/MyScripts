@@ -5,6 +5,9 @@
    
 --]]
 
+--- Loading Elements
+local antikick = 'https://raw.githubusercontent.com/Jxq7/MyScripts/main/Anti%20Kick.lua'
+local espscript = ''
 --- onscript loaded
 print("Loaded Script 👋 Thanks for using ASX")
 
@@ -27,12 +30,10 @@ local returnwait = 5
 local PlaceID = place.Id
 local deathscript = 'https://raw.githubusercontent.com/Jxq7/MyScripts/main/DH%20autofarm%20%5Bremake%5D.lua'
 wait(loopwait)
-print("1")
-print("2")
-print("3")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxq7/MyScripts/main/DH%20autofarm%20%5Bremake%5D.lua"))()
 print("Loaded Script :Happy:")
---- death
+
+	
 if
 game:GetService('Players').PlayerAdded:Connect(function(player)
 	player.CharacterAdded:Connect(function(character)
@@ -51,4 +52,4 @@ end
 
   
   ---- Anti Kick
-  
+
