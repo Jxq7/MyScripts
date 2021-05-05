@@ -7,16 +7,14 @@ local player = game:GetService("Players").LocalPlayer
 local camera = workspace.CurrentCamera
 
 --// Settings:
-local on = true -- Use this if your making gui
-
+local on = true 
 local Box_Color = Color3.fromRGB(255, 0, 0)
 local Box_Thickness = 2
-local Box_Transparency = 1 -- 1 Visible, 0 Not Visible
-
+local Box_Transparency = 1 -- 
 local Tracers = true
 local Tracer_Color = Color3.fromRGB(255, 0, 0)
 local Tracer_Thickness = 2
-local Tracer_Transparency = 1 -- 1 Visible, 0 Not Visible
+local Tracer_Transparency = 1 -- 
 
 local Autothickness = true -- Makes screen less encumbered
 
@@ -35,9 +33,9 @@ local function NewLine()
     return line
 end
 
---// Main Function:
+
 for i, v in pairs(game.Players:GetChildren()) do
-    --// Lines for 3D box (12)
+   
     local lines = {
         line1 = NewLine(),
         line2 = NewLine(),
