@@ -12,11 +12,6 @@ local espscript = 'https://raw.githubusercontent.com/Jxq7/MyScripts/main/Box%20E
 print("Loaded Script 👋 Thanks for using Saxano")
 
 
-
-
-
-
-
 wait(0.5)
 print("Loading")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxq7/MyScripts/main/DH%20autofarm%20%5Bremake%5D.lua"))()
@@ -33,7 +28,6 @@ wait(loopwait)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxq7/MyScripts/main/DH%20autofarm%20%5Bremake%5D.lua"))()
 print("Loaded Script :Happy:")
 
-	
 if
 game:GetService('Players').PlayerAdded:Connect(function(player)
 	player.CharacterAdded:Connect(function(character)
@@ -42,14 +36,12 @@ game:GetService('Players').PlayerAdded:Connect(function(player)
 		end)
 	end)
 end)
-    
+		
 then
 print("DEATH")
 wait(returnwait)
 loadstring(game:HttpGet(deathscript))()
 end
-
-
   
   ---- // Anti Kick & ESP
 loadstring(game:HttpGet(antikick))()
